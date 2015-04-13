@@ -1,6 +1,6 @@
 # JS Module Loading Examples
 
-## Icky, dirty global functions
+## AMD using Require.js
 
 Usage:
 
