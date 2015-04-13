@@ -1,6 +1,6 @@
 # JS Module Loading Examples
 
-## Namespace using an object literal
+## Simple module with encapsulation of private functions
 
 Usage:
 
