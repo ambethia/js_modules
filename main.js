@@ -1,3 +1,5 @@
+import * as color from './color.js';
+
 function main () {
 
   var a = document.getElementById('a');
@@ -11,12 +13,12 @@ function main () {
   };
 
   function randomizeSwatch(swatch) {
-    setSwatchColor(swatch, random());
+    setSwatchColor(swatch, color.random());
   }
 
   function mixSwatches() {
     var f = parseFloat(r.value);
-    setSwatchColor(b, mix(a.textContent, c.textContent, f));
+    setSwatchColor(b, color.mix(a.textContent, c.textContent, f));
   };
 
   a.addEventListener('click', function(e) { randomizeSwatch(e.target); mixSwatches(); });
