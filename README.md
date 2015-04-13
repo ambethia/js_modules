@@ -1,7 +1,7 @@
 # JS Module Loading Examples
 
-## Icky, dirty global functions
+## Common.js in node
 
 Usage:
 
-    open index.html
+    node main.js
