@@ -1,6 +1,6 @@
 # JS Module Loading Examples
 
-## Icky, dirty global functions
+## Namespace using an object literal
 
 Usage:
 
