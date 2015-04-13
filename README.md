@@ -1,7 +1,10 @@
 # JS Module Loading Examples
 
-## Common.js in node
+## Common.js using webpack
 
 Usage:
 
-    node main.js
+    npm install webpack -g
+    webpack main.js bundle.js
+    
+    open index.html
