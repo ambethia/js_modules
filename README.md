@@ -1,7 +1,11 @@
 # JS Module Loading Examples
 
-## Icky, dirty global functions
+## ES6 using webpack and babel
 
 Usage:
 
+    npm install --global webpack
+    npm install --save-dev babel-loader
+    webpack
+    
     open index.html
