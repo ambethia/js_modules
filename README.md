@@ -1,7 +1,10 @@
 # JS Module Loading Examples
 
-## Icky, dirty global functions
+## Common.js using browserify
 
 Usage:
 
+    npm install --global browserify
+    browserify main.js -o bundle.js
+        
     open index.html

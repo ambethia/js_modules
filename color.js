@@ -23,14 +23,14 @@ function componentToHex(component) {
   return hex.length == 1 ? "0" + hex : hex;
 };
 
-function random() {
+module.exports.random = function() {
   var components = [];
   for (var i = 0; i < 3; i++)
     components[i] = Math.floor(Math.random() * 255);
   return toHex({ r: components[0], g: components[1], b: components[2] });
 };
 
-function mix(c1, c2, f) {
+module.exports.mix = function (c1, c2, f) {
   c1 = typeof c1 == 'string' ? fromHex(c1) : c1;
   c2 = typeof c2 == 'string' ? fromHex(c2) : c2;
   f = typeof f == 'undefined' ? 0.5 : f;
