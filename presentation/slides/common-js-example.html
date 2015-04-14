@@ -1,0 +1,21 @@
+<pre><code class="js">
+  // blackbox.js
+  var secret = 'Setec Astronomy';
+
+  exports.decode = function() {
+    // TODO: Stop giving away the secret!
+    return secret;
+  };
+
+  // app.js
+  var bb = require('blackbox');
+
+  console.log(bb.decode());
+
+</code></pre>
+
+<aside class="notes">
+  Note how things in the file aren't wrapped up in anything, but we export the decode function;
+  <br>
+  'exports' is returned by the require, so anything we put on it can be used.
+</aside>

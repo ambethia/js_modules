@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Writing Modular Javascript",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "ambethia",
+    "githubRepository": "modular_js"
+  }
+}

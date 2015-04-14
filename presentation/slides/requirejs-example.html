@@ -1,0 +1,21 @@
+<pre><code class="js">
+  // app.js
+  require(["app/data", "helper/logger"], function (data, logger) {
+    logger('data[0] : ' + data[0]);
+    logger('data[1] : ' + data[1]);
+  });
+
+</code></pre>
+
+<pre><code class="html">
+  <script src="require.js" data-main="app.js"></script>
+
+</code></pre>
+
+<aside class="notes">
+    This function is called when after the others are loaded.
+    <br>
+    If logger.js calls define(), then this function is not fired until
+    loggers's dependencies have loaded, and the `logger` argument will
+    hold the module value for "helper/logger".
+</aside>

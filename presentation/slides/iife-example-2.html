@@ -1,0 +1,18 @@
+<pre><code class="js">
+  // app.js
+  var app = {};
+
+  // blackbox.js
+  (function(blackbox) {
+    var secret = 'Setec Astronomy';
+
+    blackbox.decode = function() {
+      return secret;
+    };
+  }(app.blackbox));
+
+  // elsewhere.js
+  console.log(app.blackbox.decode());   // -> prints "Setec Astronomy"
+  app.blackbox.secret;                  // -> undefined
+
+</code></pre>
