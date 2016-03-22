@@ -1,0 +1,75 @@
+[
+    "index.md",
+    {
+        "filename": "modern-web-development.md",
+        "attr": {
+            "data-background": "images/modern_web.png"
+        }
+    },
+    {
+        "filename": "node.md",
+        "attr": {
+            "data-background": "images/nodejs.png"
+        }
+    },
+    {
+        "filename": "problems.md",
+        "attr": {
+            "data-background": "images/fwp.jpg"
+        }
+    },
+    "globals.md",
+    "github.html",
+    "demo.html",
+    "dependency-load-order.md",
+    "what-is-a-module.md",
+    "why-use-modules.md",
+    "demo.html",
+    "iife.html",
+    "iife-example.html",
+    "iife-example-2.html",
+    "demo.html",
+    "common-js.html",
+    "common-js-parts.html",
+    "common-js-server.html",
+    "common-js-sync.html",
+    "common-js-example.html",
+    "demo.html",
+    "browserify.html",
+    {
+        "filename": "browserify-demo.html",
+        "attr": {
+            "data-background": "images/wizard.png"
+        }
+    },
+    "amd.html",
+    "amd-async.html",
+    {
+        "filename": "amd-async-image.html",
+        "attr": {
+            "data-background": "images/async_loading.png"
+        }
+    },
+    "requirejs.html",
+    "requirejs-benefits.html",
+    "requirejs-optimizer.html",
+    "requirejs-example.html",
+    "demo.html",
+    "es6.html",
+    "es6-aka-jsnext.html",
+    "es6-aka-harmony.html",
+    "es6-aka-tc39.html",
+    "es6-forget.html",
+    "es6-today.html",
+    "es6-react.html",
+    {
+        "filename": "es6-babel.html",
+        "attr": {
+            "data-background": "images/babel.png"
+        }
+    },
+    "demo.html",
+    "webpack.html",
+    "webpack-whatis.html",
+    "demo.html"
+]
